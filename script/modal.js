@@ -19,10 +19,12 @@ $(".cerrar").click(function () {
   
 });
 
-const URLJSON="../datos/productos.json"
+const URLproductos="../datos/productos.json"
 $("body").prepend('<button id="btn1">JSON</button>');
 $("#btn1").click(function (e) { 
-  
+  $.get(URLproductos,function (response, status) {
+    console.log(response)
+  })
   
 });
 
