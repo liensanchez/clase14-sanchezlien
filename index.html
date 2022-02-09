@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/d35b224244.js" crossorigin="anonymous"></script>
+  <title>Fotoshopp</title>
+</head>
+<body >
+  <header>
+      <img src="./media/fotoshopp.jpg" alt="" class="logo">
+    <div class="separador"></div>
+    <a href="./pages/sesionUsuario.html"><div class="usuarioFondo"><i class="fas fa-users"></i></div></a>
+  </header>
+
+  <section class="negocio">
+    <img src="./media/local1.jpg" alt="" class="local">
+    <img src="./media/local2.jpg" alt="" class="local">
+    <img src="./media/local3.jpg" alt="" class="local">
+    <img src="./media/local4.jpg" alt="" class="local">
+  </section>
+
+  <section class="carrito">
+    <button id="botonModal">Open Modal</button>
+    <div id="modalCarrito" class="modal">
+      <div class="modalContenedor" id="modalContenido">
+        <span class="cerrar">&times;</span> 
+        <div id="modalProductos">
+
+        </div>
+        <div id="botonesModal">
+          <button class="sumarProductos" id="sumarProductos">Sumar Pedido</button> 
+          <button class="enviarPedido" id="enviarPedido">Enviar Pedido</button>
+          <form id="formulario" class="formulario">
+            <h1>Contacto por WhatsApp</h1>
+            <div class="box-input">
+                <input placeholder="Nombre" name="nombre" id="nombrews" type="text" required>
+                
+            </div>
+            <div class="box-input">
+                <input placeholder="Apellido" name="apellidos" id="apellidos" type="text" required>
+                
+            </div>
+            <div class="box-input">
+                <input placeholder="correo@ejemplo.com" name="email" id="emailws" type="email" required>
+                
+            </div>
+            <button id="enviarMensaje">Enviar whatsapp</button>
+          </form>
+        </div>
+      </div>
+        
+     
+    
+  </section>
+  
+
+  <section class="productos">
+    <article class="card">
+      <img src="./media/accesorios.jpg" alt="" class="img">
+        <h2 class="titulo">Accesorios</h2>
+    </article>
+    <article class="card">
+        <img src="./media/marcos.jpg" alt="" class="img">
+        <button id="buttonImpresionFotografia" class="botonImpresion">Imprimir Fotografias</button>
+      </article>
+    <article class="card">
+      <img src="./media/album.jpg" alt="" class="img">
+      <div class="fondoTitulo">
+        <h2 class="titulo">Album</h2>
+      </div>
+    </article>
+  </section>
+
+  <section id="impresionFotografia">
+    <article class="promo">
+      <img src="./media/promos/10x15.jpg" alt="" class="promoImg">
+      <button id="quieroPromo10x15">Quiero una foto!</button>
+    </article>
+    <article class="promo">
+      <img src="./media/promos/13x18.jpg" alt="" class="promoImg">
+      <button id="quieroPromo13x18">Quiero esta promo!</button>
+    </article>
+    <article class="promo">
+      <img src="./media/promos/15x20.jpg" alt="" class="promoImg">
+      <button id="quieroPromo15x20">Quiero esta promo!</button>
+    </article>
+    <article class="promo">
+      <img src="./media/promos/carnet.jpg" alt="" class="promoImg">
+      <button id="quieroPromoCarnet">Quiero esta promo!</button>
+    </article>
+    <article class="promo">
+      <img src="./media/promos/polaroid.jpg" alt="" class="promoImg">
+      <button id="quieroPromoPolaroid">Quiero esta promo!</button>
+    </article>
+  
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="script/mercaderia.js"></script>
+  <script src="./script/enviomjs.js"></script>
+  <script src="./script/modal.js"></script>
+</body>
+</html>
