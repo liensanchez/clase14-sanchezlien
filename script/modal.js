@@ -23,8 +23,8 @@ const URLproductos="../datos/productos.json"
 $("body").prepend('<button id="btn1">JSON</button>');
 $("#btn1").click(function (e) { 
   $.get(URLproductos,function (response, status) {
-    let preciofoto=JSON.stringify(response);
-    localStorage.setItem('precio',preciofoto)
+    let valor=JSON.stringify(response['productos'][0]['precio'])
+    alert(valor)
   })
   
 });
