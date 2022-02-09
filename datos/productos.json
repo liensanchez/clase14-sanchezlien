@@ -3,7 +3,7 @@
   {
      "id":1,
      "producto":"foto10x15",
-     "precio":150,
+     "precio":"150",
      "texto":"Quiero una promo 10x15"
   },
   {
