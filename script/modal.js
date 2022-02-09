@@ -19,17 +19,12 @@ $(".cerrar").click(function () {
   
 });
 
-
-//hacemos un array de los productos
-const productos =  [{id:1, producto:"foto10x15", precio:150, texto: "Quiero una promo 10x15"},
-
-                    {id:2, producto:"foto13x18", precio:180, texto: "que onda loquita"},
-
-                    {id:3, producto:"foto15x20", precio:200},
-
-                    {id:4, producto:"fotoCarnet", precio:150},
-
-                    {id:5, producto:"fotoPolaroid", precio:150}];
+const URLJSON="../datos/productos.json"
+$("body").prepend('<button id="btn1">JSON</button>');
+$("#btn1").click(function (e) { 
+  
+  
+});
 
 
 //carrito array para sumar los productos
