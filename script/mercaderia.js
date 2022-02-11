@@ -19,7 +19,7 @@ $("#buttonImpresionFotografia").click(function (e) {
 
 
 //usar el JSON de mercaderia
-const URLproductos="../datos/productos.json"
+const URLproductos="./datos/productos.json"
 
 //registramos click del boton
 $("#quieroPromo10x15").click(function (e) { 
