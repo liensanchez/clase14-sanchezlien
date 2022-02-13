@@ -26,7 +26,7 @@ const urlDesktop = 'https://web.whatsapp.com/';
 
 const urlMobile = 'whatsapp://';
 
-const telefono = '+54 9 2612704041';
+const telefono = '+54 9 2614179615';
 
 
 //CHEQUEAMOS EL CLICK DEL BOTON DE ENVIAR WHATSAPP
