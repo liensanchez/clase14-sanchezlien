@@ -41,7 +41,7 @@ $("#quieroPromo10x15").click(function (e) {
     $("#modalProductos").append(
       
       `
-      <h2>${valor}</h2>
+      <h2>Una promo 10x15$${valor}</h2>
       `
     );
   })
